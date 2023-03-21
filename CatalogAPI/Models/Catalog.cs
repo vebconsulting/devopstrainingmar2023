@@ -21,6 +21,7 @@ namespace CatalogAPI.Models
 >>>>>>> 09289b163d01b008dcbcbfe5df1cd1f557a9c0b2
         [Column("Catalog_Id")]
         public long CatalogId { get; set; }
+//modified by user2
         [Column("Catalog_Name")]
         [Required]
         [StringLength(50)]
