@@ -9,7 +9,8 @@ namespace CatalogAPI.Repositories
         private readonly CatalogContext _dbContext;
 
         // user 3 modified 
-        public CatalogRepository(CatalogContext dbContext)
+        
+public CatalogRepository(CatalogContext dbContext)
         {
             _dbContext = dbContext;
         }
