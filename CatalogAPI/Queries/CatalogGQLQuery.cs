@@ -4,6 +4,7 @@ using GraphQL.Types;
 
 namespace CatalogAPI.Queries
 {
+//user3 modified
     public class CatalogGQLQuery:ObjectGraphType
     {
         public CatalogGQLQuery(ICatalogRepository CatalogRepository)

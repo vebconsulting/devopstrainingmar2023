@@ -4,6 +4,7 @@ namespace CatalogAPI.Queries
 {
     public class CatalogQueryType : ObjectGraphType<Catalog>
     {
+//modifying Type by user3
         public CatalogQueryType(){
             Name = "CatalogType";
             Field(_ => _.CatalogId).Description("Catalog Id");
